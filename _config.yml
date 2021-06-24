@@ -2,7 +2,7 @@
 title: Moon
 description: '다양함을 기록하려고 합니다.'
 url: 'https://Taxzero.github.io'
-baseurl: '/link'
+baseurl: "/link"
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
