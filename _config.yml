@@ -1,7 +1,7 @@
 # Site settings
 title: Taxzero
 description: '다양함을 기록하려고 합니다.'
-url: 'https://Taxzero.github.io'
+url: "https://Taxzero.github.io"
 baseurl: ""
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
