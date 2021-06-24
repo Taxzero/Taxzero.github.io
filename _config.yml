@@ -1,0 +1,44 @@
+# Site settings
+title: Moon
+description: '다양함을 기록하려고 합니다.'
+url: 'https://github.com/Taxzero'
+baseurl: '/Moon'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+# disable_landing_page: true
+
+author:
+  name: 'Moon'
+  email: taxzero95@gmail.com
+#  twitter_username: Taxzero
+#  facebook_username: Taxzero
+  github_username:  Taxzero
+#  linkedin_username:  Taxzero
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
